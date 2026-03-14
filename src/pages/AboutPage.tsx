@@ -7,10 +7,8 @@ import {
   Twitter,
   Mail,
   MapPin,
-  ChevronRight,
-  Globe
+  ChevronRight
 } from "lucide-react";
-import { cn } from "../utils";
 import { useLanguage } from "../context/LanguageContext";
 
 const socialLinks = [

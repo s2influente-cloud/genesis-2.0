@@ -1,15 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { 
-  Code2, 
   ChevronRight, 
   Bot,
   Globe,
-  Zap,
-  Shield,
-  MessageSquare,
-  Mail,
-  Play,
   Terminal,
   Settings,
   Layout

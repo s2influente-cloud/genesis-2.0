@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from "react";
+import React, { createContext, useContext, useState, type ReactNode } from "react";
 
 type Language = "pt" | "en";
 
@@ -19,8 +19,8 @@ const translations: Translations = {
 
   // Hero
   hero_badge: { pt: "Disponível para novos projetos", en: "Available for new projects" },
-  hero_title_1: { pt: "Arquitetos", en: "Digital" },
-  hero_title_2: { pt: "Digitais.", en: "Architects." },
+  hero_title_1: { pt: "Genesis", en: "Genesis" },
+  hero_title_2: { pt: "Company.", en: "Company." },
   hero_description: { 
     pt: "Projetamos experiências digitais de alta performance. De sites de alto padrão a automações complexas para seu ecossistema.", 
     en: "We engineer high-performance digital experiences. From high-end websites to complex automation for your ecosystem." 
